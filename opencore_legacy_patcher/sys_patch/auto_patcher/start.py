@@ -303,7 +303,7 @@ Please check the Github page for more information about this release."""
             args = [
                 "/usr/bin/osascript",
                 "-e",
-                f"""display dialog "OpenCore Legacy Patcher has detected that you are booting OpenCore from an USB or External drive.\n\nIf you would like to boot your Mac normally without a USB drive plugged in, you can install OpenCore to the internal hard drive.\n\nWould you like to launch OpenCore Legacy Patcher and install to disk?" """
+                f"""display dialog "OpenCore Legacy Patcher has detected that you are booting OpenCore from a USB or External drive.\n\nIf you would like to boot your Mac normally without a USB drive plugged in, you can install OpenCore to the internal hard drive.\n\nWould you like to launch OpenCore Legacy Patcher and install to disk?" """
                 f'with icon POSIX file "{self.constants.app_icon_path}"',
             ]
             output = subprocess.run(
